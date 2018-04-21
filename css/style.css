@@ -1,0 +1,11 @@
+/* style.css */
+
+body{
+	background: #fafafa;
+}
+
+.wrapper{
+	max-width: 900px;
+	margin: 0px auto;
+	background: #fff;
+}
