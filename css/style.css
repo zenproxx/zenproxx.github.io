@@ -1,11 +1,66 @@
 /* style.css */
 
 body{
-	background: #fafafa;
+	background: #f6f6f6;
+	color: #666;
+	font-family: 'helvetica';
 }
 
-.wrapper{
-	max-width: 900px;
+.clearfix{
+	clear: both;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Dancing Script', cursive;
+}
+
+.header{
+	padding: 40px 0px;
+	text-align: center;
+	color: #D4AF37;
+
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.judul-header{
+	font-size: 40px;
+	letter-spacing: 1px;
+	margin: 0; margin-top: 20px;
+
+	color: #FAD766;
+
+}
+
+.img-header{
 	margin: 0px auto;
-	background: #fff;
+	border-radius: 50px;
+}
+
+
+/* Nav menu goes here */
+.nav-menu{
+	background: #777;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-menu li{
+	float: left;
+	list-style: none;
+	padding: 10px 20px;
+}
+
+.nav-menu li a{
+	text-decoration: none;
+	color: #d4af37;
+	font-family: 'Dancing Script';
+	font-size: 18px;
+}
+
+.nav-menu li:hover{
+	border: 1px solid #d4af37;
 }
